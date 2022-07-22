@@ -142,3 +142,7 @@ SELECT
     parent.FIRST_NAME as parent_first_name,
     parent.LAST_NAME as parent_last_name
 FROM generation AS G LEFT JOIN parent_child as parent ON g.parent_id = parent.id;
+
+
+-- Reference
+-- https://learnsql.com/blog/query-parent-child-tree/
